@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/nstoker/golang_integration_test_db/app/version"
+)
 
 func main() {
-	fmt.Println("initial build")
+	fmt.Printf("initial build %s\n", version.Version)
 }
